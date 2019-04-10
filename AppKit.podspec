@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/pengjinfeng/AppKit"
-  s.license      = "MIT"
+  s.license 	 = { :type => "MIT", :file => "LICENSE" }
   s.author       = {"JinFeng" => "peng_jinfeng@163.com" }
   s.platform     = :ios, "10.0"
 
@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Sources/*'
 
   s.requires_arc = true
-  #s.swift_version = '5.0'
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
+  s.swift_version = '5.0'
 
 end
