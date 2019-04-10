@@ -18,8 +18,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  if s.respond_to? 'swift_version'
-    s.swift_version = '5.0'
-  end
+ 
   
 end
