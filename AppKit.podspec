@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AppKit"
-  s.version      = "1.0.0"
+  s.version      = "2.0.0"
   s.summary      = "AppKit is just test"
   s.description  = <<-DESC
 		   AppKit is just test, this is a good kit can use is open every you code you code ,thanks!
