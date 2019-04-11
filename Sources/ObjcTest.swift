@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 public class ObjcTest: NSObject {
     public static func testObjc() {
