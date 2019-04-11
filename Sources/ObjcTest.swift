@@ -11,6 +11,6 @@ import Alamofire
 
 public class ObjcTest: NSObject {
     public static func testObjc() {
-        print("ObjcTest function")
+        print("test Alamofire")
     }
 }
