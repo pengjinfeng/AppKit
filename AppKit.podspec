@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/pengjinfeng/AppKit.git", :tag => s.version }
 
-  s.source_files = 'Sources/*'
+  s.source_files = 'Sources/net/*','Sources/device/*'
 
   s.requires_arc = true
 
