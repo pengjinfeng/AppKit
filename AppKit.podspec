@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AppKit"
-  s.version      = "2.0.0"
+  s.version      = "2.0.1"
   s.summary      = "AppKit is just test"
   s.description  = <<-DESC
 		   AppKit is just test, this is a good kit can use is open every you code you code ,thanks!
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author       = {"JinFeng" => "peng_jinfeng@163.com" }
   s.platform     = :ios, "10.0"
 
-  s.source       = { :git => "https://github.com/pengjinfeng/AppKit.git", :tag => "2.0.0" }
+  s.source       = { :git => "https://github.com/pengjinfeng/AppKit.git", :tag => "2.0.1" }
 
   s.source_files = 'Sources/*'
 
