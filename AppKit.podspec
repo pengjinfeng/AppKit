@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.version      = "2.0.2"
   s.summary      = "AppKit is just test"
   s.description  = <<-DESC
-		   AppKit is just test, this is a good kit can use is open every you code you code ,thanks!
+		   AppKit 将会是一个全面的framework框架，包含所有的app开发需要的快捷方法，将会给你的开发带来极大的方便!
                    DESC
 
   s.homepage     = "https://github.com/pengjinfeng/AppKit"

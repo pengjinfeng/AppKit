@@ -94,10 +94,26 @@
 		65689D22225E1EDA001A6302 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				65689D23225E1EF7001A6302 /* ObjcTest.swift */,
-				65689DB1226B1FAA001A6302 /* Device.swift */,
+				65689DB3226B4767001A6302 /* net */,
+				65689DB4226B476F001A6302 /* device */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		65689DB3226B4767001A6302 /* net */ = {
+			isa = PBXGroup;
+			children = (
+				65689D23225E1EF7001A6302 /* ObjcTest.swift */,
+			);
+			path = net;
+			sourceTree = "<group>";
+		};
+		65689DB4226B476F001A6302 /* device */ = {
+			isa = PBXGroup;
+			children = (
+				65689DB1226B1FAA001A6302 /* Device.swift */,
+			);
+			path = device;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
