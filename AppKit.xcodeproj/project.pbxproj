@@ -11,6 +11,7 @@
 		65689D17225E1E0A001A6302 /* AppKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65689D16225E1E0A001A6302 /* AppKitTests.swift */; };
 		65689D19225E1E0A001A6302 /* AppKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 65689D0B225E1E0A001A6302 /* AppKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65689D24225E1EF7001A6302 /* ObjcTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65689D23225E1EF7001A6302 /* ObjcTest.swift */; };
+		65689DB2226B1FAA001A6302 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65689DB1226B1FAA001A6302 /* Device.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		65689D16225E1E0A001A6302 /* AppKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppKitTests.swift; sourceTree = "<group>"; };
 		65689D18225E1E0A001A6302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65689D23225E1EF7001A6302 /* ObjcTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcTest.swift; sourceTree = "<group>"; };
+		65689DB1226B1FAA001A6302 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				65689D23225E1EF7001A6302 /* ObjcTest.swift */,
+				65689DB1226B1FAA001A6302 /* Device.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65689D24225E1EF7001A6302 /* ObjcTest.swift in Sources */,
+				65689DB2226B1FAA001A6302 /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
