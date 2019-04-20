@@ -4,7 +4,7 @@
 //
 //  Created by jinfeng on 2019/4/17.
 //  Copyright © 2019 jinfeng. All rights reserved.
-//  当有新的机型加入及时维护
+//  如果有新的机型加入及时维护
 
 import Foundation
 import UIKit
