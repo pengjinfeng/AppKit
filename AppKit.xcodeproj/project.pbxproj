@@ -12,6 +12,11 @@
 		65689D19225E1E0A001A6302 /* AppKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 65689D0B225E1E0A001A6302 /* AppKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65689D24225E1EF7001A6302 /* ObjcTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65689D23225E1EF7001A6302 /* ObjcTest.swift */; };
 		65689DB2226B1FAA001A6302 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65689DB1226B1FAA001A6302 /* Device.swift */; };
+		65689DFF226DECBC001A6302 /* Int+AppTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65689DFB226DECBB001A6302 /* Int+AppTime.swift */; };
+		65689E00226DECBC001A6302 /* DateComponents+AppTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65689DFC226DECBC001A6302 /* DateComponents+AppTime.swift */; };
+		65689E01226DECBC001A6302 /* Date+AppTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65689DFD226DECBC001A6302 /* Date+AppTime.swift */; };
+		65689E02226DECBC001A6302 /* String+AppTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65689DFE226DECBC001A6302 /* String+AppTime.swift */; };
+		65689E05226DECDB001A6302 /* DateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65689E04226DECDA001A6302 /* DateTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +38,11 @@
 		65689D18225E1E0A001A6302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65689D23225E1EF7001A6302 /* ObjcTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcTest.swift; sourceTree = "<group>"; };
 		65689DB1226B1FAA001A6302 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		65689DFB226DECBB001A6302 /* Int+AppTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+AppTime.swift"; sourceTree = "<group>"; };
+		65689DFC226DECBC001A6302 /* DateComponents+AppTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateComponents+AppTime.swift"; sourceTree = "<group>"; };
+		65689DFD226DECBC001A6302 /* Date+AppTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+AppTime.swift"; sourceTree = "<group>"; };
+		65689DFE226DECBC001A6302 /* String+AppTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+AppTime.swift"; sourceTree = "<group>"; };
+		65689E04226DECDA001A6302 /* DateTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				65689D16225E1E0A001A6302 /* AppKitTests.swift */,
+				65689E04226DECDA001A6302 /* DateTest.swift */,
 				65689D18225E1E0A001A6302 /* Info.plist */,
 			);
 			path = AppKitTests;
@@ -94,6 +105,7 @@
 		65689D22225E1EDA001A6302 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				65689E03226DECC5001A6302 /* date */,
 				65689DB3226B4767001A6302 /* net */,
 				65689DB4226B476F001A6302 /* device */,
 			);
@@ -114,6 +126,17 @@
 				65689DB1226B1FAA001A6302 /* Device.swift */,
 			);
 			path = device;
+			sourceTree = "<group>";
+		};
+		65689E03226DECC5001A6302 /* date */ = {
+			isa = PBXGroup;
+			children = (
+				65689DFD226DECBC001A6302 /* Date+AppTime.swift */,
+				65689DFC226DECBC001A6302 /* DateComponents+AppTime.swift */,
+				65689DFB226DECBB001A6302 /* Int+AppTime.swift */,
+				65689DFE226DECBC001A6302 /* String+AppTime.swift */,
+			);
+			path = date;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,7 +249,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				65689D24225E1EF7001A6302 /* ObjcTest.swift in Sources */,
+				65689E01226DECBC001A6302 /* Date+AppTime.swift in Sources */,
 				65689DB2226B1FAA001A6302 /* Device.swift in Sources */,
+				65689E00226DECBC001A6302 /* DateComponents+AppTime.swift in Sources */,
+				65689DFF226DECBC001A6302 /* Int+AppTime.swift in Sources */,
+				65689E02226DECBC001A6302 /* String+AppTime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65689D17225E1E0A001A6302 /* AppKitTests.swift in Sources */,
+				65689E05226DECDB001A6302 /* DateTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
