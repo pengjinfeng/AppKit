@@ -17,6 +17,8 @@
 		65689E01226DECBC001A6302 /* Date+AppTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65689DFD226DECBC001A6302 /* Date+AppTime.swift */; };
 		65689E02226DECBC001A6302 /* String+AppTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65689DFE226DECBC001A6302 /* String+AppTime.swift */; };
 		65689E05226DECDB001A6302 /* DateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65689E04226DECDA001A6302 /* DateTest.swift */; };
+		65689E082271FE1E001A6302 /* UIColor+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65689E062271FE1E001A6302 /* UIColor+Extention.swift */; };
+		65689E092271FE1E001A6302 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65689E072271FE1E001A6302 /* UIView+Frame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		65689DFD226DECBC001A6302 /* Date+AppTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+AppTime.swift"; sourceTree = "<group>"; };
 		65689DFE226DECBC001A6302 /* String+AppTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+AppTime.swift"; sourceTree = "<group>"; };
 		65689E04226DECDA001A6302 /* DateTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTest.swift; sourceTree = "<group>"; };
+		65689E062271FE1E001A6302 /* UIColor+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extention.swift"; sourceTree = "<group>"; };
+		65689E072271FE1E001A6302 /* UIView+Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 		65689D22225E1EDA001A6302 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				65689E0B2271FE49001A6302 /* color */,
+				65689E0A2271FE3F001A6302 /* view */,
 				65689E03226DECC5001A6302 /* date */,
 				65689DB3226B4767001A6302 /* net */,
 				65689DB4226B476F001A6302 /* device */,
@@ -137,6 +143,22 @@
 				65689DFE226DECBC001A6302 /* String+AppTime.swift */,
 			);
 			path = date;
+			sourceTree = "<group>";
+		};
+		65689E0A2271FE3F001A6302 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				65689E072271FE1E001A6302 /* UIView+Frame.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		65689E0B2271FE49001A6302 /* color */ = {
+			isa = PBXGroup;
+			children = (
+				65689E062271FE1E001A6302 /* UIColor+Extention.swift */,
+			);
+			path = color;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,8 +274,10 @@
 				65689E01226DECBC001A6302 /* Date+AppTime.swift in Sources */,
 				65689DB2226B1FAA001A6302 /* Device.swift in Sources */,
 				65689E00226DECBC001A6302 /* DateComponents+AppTime.swift in Sources */,
+				65689E092271FE1E001A6302 /* UIView+Frame.swift in Sources */,
 				65689DFF226DECBC001A6302 /* Int+AppTime.swift in Sources */,
 				65689E02226DECBC001A6302 /* String+AppTime.swift in Sources */,
+				65689E082271FE1E001A6302 /* UIColor+Extention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
