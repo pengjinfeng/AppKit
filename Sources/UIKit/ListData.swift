@@ -74,7 +74,7 @@ extension ListData {
         // 注册sectionFooter  ps:这里的headerfooterview需继承UItableviewheaderfooterview
         self.listView?.register(sectionData.mHeaderClass, forHeaderFooterViewReuseIdentifier:"footer_\(String(describing: sectionData.mHeaderClass))")
         // 注册cell
-        for row in sectionData.mDataList {
+        for row in sectionData.mRows {
             self.listView?.register(row.cellClass, forCellReuseIdentifier: "cell_\(String(describing: row.cellClass))")
         }
     }

@@ -2,7 +2,7 @@
 //  UIView+Frame.swift
 //  AppBasicKit
 //
-//  Created by jinfeng锋 on 2017/10/26.
+//  Created by jinfeng on 2017/10/26.
 //  Copyright © 2019年 jinfeng. All rights reserved.
 //
 
