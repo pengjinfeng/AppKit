@@ -64,6 +64,8 @@ extension ListData {
     }
 }
 
+/// Mark: listData操作
+
 extension ListData {
     
     private func registerCellClass(sectionData:SectionData) {
@@ -77,28 +79,41 @@ extension ListData {
         }
     }
     
-    
+    // ListData 的数据个数
     func count() -> Int {
         return self.mSections.count
     }
     
-    
+    /// 获取对应区的数据
     func get(sectionData index:Int) -> SectionData? {
+        guard index >= 0 else {
+            return nil
+        }
         guard index < self.mSections.count else {
             return nil
         }
         return self.mSections[index]
     }
+    
+    /// 添加对应区的数据
     func add(sectionData data:SectionData) {
         self.registerCellClass(sectionData: data)
         self.mSections.append(data)
     }
-    func insert(sectionData data:SectionData, at index:Int) {
+    
+    /// 插入数据到对应的区
+    func insert(sectionData data:SectionData, at index:Int) -> Bool {
+        guard index >= 0 else {
+            return false
+        }
         guard index <= self.mSections.count else {
-            return
+            return false
         }
         self.mSections.insert(data, at: index)
+        return true
     }
+    
+    /// 移除对应区的数据
     func remove(sectionData data:SectionData) {
         for (i,item) in self.mSections.enumerated() {
             if item === data {
@@ -107,11 +122,18 @@ extension ListData {
             }
         }
     }
+    
+    /// 移除对应区的数据
     func remove(section:Int) {
         guard section < self.mSections.count else {
             return
         }
         self.mSections.remove(at: section)
+    }
+    
+    /// 移除所有的数据
+    func removeAll() {
+        self.mSections.removeAll()
     }
 }
 

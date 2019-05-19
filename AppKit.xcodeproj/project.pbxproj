@@ -11,6 +11,7 @@
 		655641AA2290E9D100C00C08 /* ListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655641A62290E9D100C00C08 /* ListData.swift */; };
 		655641AB2290E9D100C00C08 /* DataTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655641A72290E9D100C00C08 /* DataTableCell.swift */; };
 		655641AC2290E9D100C00C08 /* TableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655641A82290E9D100C00C08 /* TableViewProtocol.swift */; };
+		655641BB2290ED1B00C00C08 /* ListDataTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655641BA2290ED1B00C00C08 /* ListDataTest.swift */; };
 		65689D12225E1E0A001A6302 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65689D08225E1E0A001A6302 /* AppKit.framework */; };
 		65689D17225E1E0A001A6302 /* AppKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65689D16225E1E0A001A6302 /* AppKitTests.swift */; };
 		65689D19225E1E0A001A6302 /* AppKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 65689D0B225E1E0A001A6302 /* AppKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,6 +41,7 @@
 		655641A62290E9D100C00C08 /* ListData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListData.swift; sourceTree = "<group>"; };
 		655641A72290E9D100C00C08 /* DataTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableCell.swift; sourceTree = "<group>"; };
 		655641A82290E9D100C00C08 /* TableViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewProtocol.swift; sourceTree = "<group>"; };
+		655641BA2290ED1B00C00C08 /* ListDataTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDataTest.swift; sourceTree = "<group>"; };
 		65689D08225E1E0A001A6302 /* AppKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65689D0B225E1E0A001A6302 /* AppKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppKit.h; sourceTree = "<group>"; };
 		65689D0C225E1E0A001A6302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,8 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				655641A82290E9D100C00C08 /* TableViewProtocol.swift */,
-				655641A52290E9D100C00C08 /* SectionData.swift */,
 				655641A62290E9D100C00C08 /* ListData.swift */,
+				655641A52290E9D100C00C08 /* SectionData.swift */,
 				655641A72290E9D100C00C08 /* DataTableCell.swift */,
 			);
 			name = listdata;
@@ -131,7 +133,7 @@
 			children = (
 				65689D23225E1EF7001A6302 /* ObjcTest.swift */,
 			);
-			path = net;
+			name = net;
 			sourceTree = "<group>";
 		};
 		655641B52290EAFD00C00C08 /* device */ = {
@@ -175,6 +177,7 @@
 			children = (
 				65689D16225E1E0A001A6302 /* AppKitTests.swift */,
 				65689E04226DECDA001A6302 /* DateTest.swift */,
+				655641BA2290ED1B00C00C08 /* ListDataTest.swift */,
 				65689D18225E1E0A001A6302 /* Info.plist */,
 			);
 			path = AppKitTests;
@@ -318,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65689D17225E1E0A001A6302 /* AppKitTests.swift in Sources */,
+				655641BB2290ED1B00C00C08 /* ListDataTest.swift in Sources */,
 				65689E05226DECDB001A6302 /* DateTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
