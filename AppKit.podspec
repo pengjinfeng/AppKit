@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AppKit"
-  s.version      = "2.1.0"
+  s.version      = "2.2.0"
   s.summary      = "AppKit is just test"
   s.description  = <<-DESC
 		   AppKit 将会是一个全面的framework框架，包含所有的app开发需要的快捷方法，将会给你的开发带来极大的方便!
