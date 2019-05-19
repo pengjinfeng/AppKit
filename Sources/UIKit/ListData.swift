@@ -10,14 +10,14 @@ import UIKit
 
 public class ListData: NSObject {
 
-    weak var listView:UITableView?
-    weak var delegate:TableViewDelegate?
+    public weak var listView:UITableView?
+    public weak var delegate:TableViewDelegate?
     private var mSections:[SectionData] = []
 
     public override init() {
         super.init()
     }
-    convenience init(bind listView:UITableView,listDeleagte:TableViewDelegate) {
+    public convenience init(bind listView:UITableView,listDeleagte:TableViewDelegate) {
         self.init()
         self.listView = listView
         self.delegate = listDeleagte
@@ -25,7 +25,7 @@ public class ListData: NSObject {
         self.listView?.dataSource = self
     }
     
-    static func initListData(bind listView:UITableView,deleagte:TableViewDelegate) -> ListData {
+    public static func initListData(bind listView:UITableView,deleagte:TableViewDelegate) -> ListData {
         let listData = ListData.init(bind: listView, listDeleagte: deleagte)
         return listData
     }
@@ -80,12 +80,12 @@ extension ListData {
     }
     
     // ListData 的数据个数
-    func count() -> Int {
+    public func count() -> Int {
         return self.mSections.count
     }
     
     /// 获取对应区的数据
-    func get(sectionData index:Int) -> SectionData? {
+   public func get(sectionData index:Int) -> SectionData? {
         guard index >= 0 else {
             return nil
         }
@@ -96,13 +96,13 @@ extension ListData {
     }
     
     /// 添加对应区的数据
-    func add(sectionData data:SectionData) {
+   public func add(sectionData data:SectionData) {
         self.registerCellClass(sectionData: data)
         self.mSections.append(data)
     }
     
     /// 插入数据到对应的区
-    func insert(sectionData data:SectionData, at index:Int) -> Bool {
+    public func insert(sectionData data:SectionData, at index:Int) -> Bool {
         guard index >= 0 else {
             return false
         }
@@ -114,7 +114,7 @@ extension ListData {
     }
     
     /// 移除对应区的数据
-    func remove(sectionData data:SectionData) {
+    public func remove(sectionData data:SectionData) {
         for (i,item) in self.mSections.enumerated() {
             if item === data {
                 self.mSections.remove(at: i)
@@ -124,7 +124,7 @@ extension ListData {
     }
     
     /// 移除对应区的数据
-    func remove(section:Int) {
+    public func remove(section:Int) {
         guard section < self.mSections.count else {
             return
         }
@@ -132,7 +132,7 @@ extension ListData {
     }
     
     /// 移除所有的数据
-    func removeAll() {
+    public func removeAll() {
         self.mSections.removeAll()
     }
 }
