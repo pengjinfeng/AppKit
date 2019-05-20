@@ -23,6 +23,7 @@
 		65689E05226DECDB001A6302 /* DateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65689E04226DECDA001A6302 /* DateTest.swift */; };
 		65689E082271FE1E001A6302 /* UIColor+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65689E062271FE1E001A6302 /* UIColor+Extention.swift */; };
 		65689E092271FE1E001A6302 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65689E072271FE1E001A6302 /* UIView+Frame.swift */; };
+		65D551C12292E98600D4498F /* String+Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D551C02292E98600D4498F /* String+Secret.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		65689E04226DECDA001A6302 /* DateTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTest.swift; sourceTree = "<group>"; };
 		65689E062271FE1E001A6302 /* UIColor+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extention.swift"; sourceTree = "<group>"; };
 		65689E072271FE1E001A6302 /* UIView+Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
+		65D551C02292E98600D4498F /* String+Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Secret.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			children = (
 				65689E072271FE1E001A6302 /* UIView+Frame.swift */,
 				65689E062271FE1E001A6302 /* UIColor+Extention.swift */,
+				65D551C02292E98600D4498F /* String+Secret.swift */,
 			);
 			name = category;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				65689E082271FE1E001A6302 /* UIColor+Extention.swift in Sources */,
 				655641AA2290E9D100C00C08 /* ListData.swift in Sources */,
 				655641AC2290E9D100C00C08 /* TableViewProtocol.swift in Sources */,
+				65D551C12292E98600D4498F /* String+Secret.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
