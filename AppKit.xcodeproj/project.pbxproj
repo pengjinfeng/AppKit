@@ -24,6 +24,7 @@
 		65689E082271FE1E001A6302 /* UIColor+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65689E062271FE1E001A6302 /* UIColor+Extention.swift */; };
 		65689E092271FE1E001A6302 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65689E072271FE1E001A6302 /* UIView+Frame.swift */; };
 		65D551C12292E98600D4498F /* String+Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D551C02292E98600D4498F /* String+Secret.swift */; };
+		65D551C322941F7500D4498F /* SecretTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D551C222941F7500D4498F /* SecretTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		65689E062271FE1E001A6302 /* UIColor+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extention.swift"; sourceTree = "<group>"; };
 		65689E072271FE1E001A6302 /* UIView+Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
 		65D551C02292E98600D4498F /* String+Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Secret.swift"; sourceTree = "<group>"; };
+		65D551C222941F7500D4498F /* SecretTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 			children = (
 				65689D16225E1E0A001A6302 /* AppKitTests.swift */,
 				65689E04226DECDA001A6302 /* DateTest.swift */,
+				65D551C222941F7500D4498F /* SecretTest.swift */,
 				65689D18225E1E0A001A6302 /* Info.plist */,
 			);
 			path = AppKitTests;
@@ -322,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65689D17225E1E0A001A6302 /* AppKitTests.swift in Sources */,
+				65D551C322941F7500D4498F /* SecretTest.swift in Sources */,
 				65689E05226DECDB001A6302 /* DateTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
