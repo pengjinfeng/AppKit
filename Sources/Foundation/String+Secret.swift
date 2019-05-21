@@ -29,7 +29,7 @@ public extension String {
     
     /// md5加密
     func md5() -> String {
-        let str = self.cString(using: String.Encoding.utf8)
+        let str = self.cString(using: .utf8)
         let strLen = CUnsignedInt(self.lengthOfBytes(using: String.Encoding.utf8))
         let digestLen = Int(CC_MD5_DIGEST_LENGTH)
         let result = UnsafeMutablePointer<UInt8>.allocate(capacity: 16)
@@ -43,11 +43,8 @@ public extension String {
     }
     
     /// md5加密
-    func sha1() -> String? {
+    func sha1() -> String {
         let data = self.data(using: .utf8)
-        guard data != nil else {
-            return nil
-        }
         var digest = [UInt8](repeating: 0, count:Int(CC_SHA1_DIGEST_LENGTH))
         let newData = NSData.init(data: data!)
         CC_SHA1(newData.bytes, CC_LONG(data!.count), &digest)
